@@ -91,7 +91,7 @@ Complaint-driven inspections show materially worse outcome distributions compare
 ### Seasonal Patterns
 
 Fail rates show a seasonal decline from ~20% in summer months (July–August) to ~15% in fall/winter (September–December). This indicates that `Inspection Month` carries predictive signal and was included as a modeling feature.
-<img src="images/failrate by month.png" width="600">
+<img src="images/fail rate by month.png" width="600">
 
 ### First-Time vs. Repeat Inspections
 
