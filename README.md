@@ -91,7 +91,7 @@ Complaint-driven inspections show materially worse outcome distributions compare
 ### Seasonal Patterns
 
 Fail rates show a seasonal decline from ~20% in summer months (July–August) to ~15% in fall/winter (September–December). This indicates that `Inspection Month` carries predictive signal and was included as a modeling feature.
-<img src="images/fail rate by month.png" width="800">
+<img src="images/fail rate by month.png" width="700">
 
 ### First-Time vs. Repeat Inspections
 
@@ -148,7 +148,7 @@ The Random Forest achieves **75% recall on the fail class** — roughly a **3x i
 ### Top Features by Importance
 
 The most important features were the historical license-level features — `prior_fail_rate`, `days_since_last_inspection`, and `failed_last_inspection` ranked highest. This confirms that a facility's inspection history is the strongest signal for predicting future outcomes. Temporal (`Inspection Month`, `Inspection Year`) and geographic (`Zip`) features also contributed meaningfully.
-<img src="images/feature_ importance.png" width="600">
+<img src="images/feature_ importance.png" width="800">
 
 ---
 
