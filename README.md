@@ -82,6 +82,7 @@ Due to the ~22.8% fail rate, a model predicting the majority class would be 77.2
 ### Facility Type
 
 Among the most common facility types, Long-Term Care had the highest failure rate at 25.1%, sitting meaningfully above the citywide average of 22.8%. Restaurants, which constitute the vast majority of inspections, had a failure rate of only 18.6%.
+![Fail Rate by Facility Type](images/fail_rate_by_facility.png)
 
 ### Inspection Type
 
@@ -90,6 +91,7 @@ Complaint-driven inspections show materially worse outcome distributions compare
 ### Seasonal Patterns
 
 Fail rates show a seasonal decline from ~20% in summer months (July–August) to ~15% in fall/winter (September–December). This indicates that `Inspection Month` carries predictive signal and was included as a modeling feature.
+![Fail Rate by Month](images/failrate_by_month.png)
 
 ### First-Time vs. Repeat Inspections
 
@@ -146,6 +148,7 @@ The Random Forest achieves **75% recall on the fail class** — roughly a **3x i
 ### Top Features by Importance
 
 The most important features were the historical license-level features — `prior_fail_rate`, `days_since_last_inspection`, and `failed_last_inspection` ranked highest. This confirms that a facility's inspection history is the strongest signal for predicting future outcomes. Temporal (`Inspection Month`, `Inspection Year`) and geographic (`Zip`) features also contributed meaningfully.
+![Feature Importance](images/feature_importance.png)
 
 ---
 
