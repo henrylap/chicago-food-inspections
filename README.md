@@ -104,6 +104,8 @@ Fail rates are essentially flat across the city's three risk tiers (High / Mediu
 ### Geographic Variation
 
 The highest-volume ZIPs (60647, 60614) show fail rates close to the citywide average of ~22.8%. The highest fail-rate ZIPs (60620 at 28.0%, 60617 at 27.9%) are geographically distinct, concentrated on the South and West sides of Chicago — not simply artifacts of high inspection volume. 60625 and 60639 appear in both the high-volume and high-fail-rate lists, making them the most operationally concerning ZIPs. ZIP code is included as a modeling feature given its apparent predictive signal.
+<img src="images/Highest Fail ZIP.png" width="700">
+<img src="images/Volume vs Fail Rate.png" width="700">
 
 ---
 
