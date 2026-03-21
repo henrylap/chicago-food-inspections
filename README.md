@@ -154,7 +154,7 @@ The most important features were the historical license-level features — `prio
 
 ---
 
-## Limitations & Next Steps
+## Limitations
 
 - The `Violations` column was excluded — it's free-text and has ~39k nulls, so it wasn't worth including in the analysis for this version. NLP on it would probably add real signal though.
 - No hyperparameter tuning was done — these are all baseline models with manually set parameters
