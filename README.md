@@ -14,7 +14,7 @@
 - [Exploratory Analysis](#exploratory-analysis)
 - [Modeling](#modeling)
 - [Interactive Dashboard](#interactive-dashboard)
-- [Limitations & Next Steps](#limitations--next-steps)
+- [Limitations](#limitations)
 
 ---
 
